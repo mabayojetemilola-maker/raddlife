@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact / Quote – RADILIFE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="RADILIFE" /></a>
+      <nav class="desktop-nav">
+        <a href="index.html">Who We Are</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Products &amp; Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header-right">
+        <a href="contact.html" class="btn btn-green btn-sm">Get a Quote</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="overlay" id="overlay"></div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Who We Are</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Products &amp; Services</a>
+    <a href="contact.html" class="active">Contact / Quote</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Get In Touch</span>
+      <h1>Contact Us / Request a Quote</h1>
+      <p>Are you seeking dependable electrical infrastructure solutions? RADILIFE welcomes the opportunity to work with you.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3>Contact Information</h3>
+          <div class="info-item">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Phone / WhatsApp</h4>
+              <p><a href="tel:+2348034446191">+234 803 444 6191</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:radilife05@gmail.com">radilife05@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon">🌐</div>
+            <div>
+              <h4>Website</h4>
+              <p>www.radilife.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Head Office – Katsina</h4>
+              <p>No. 4 Yahaya Madaki Way,<br>behind Dan-marna Fuel station,<br>Katsina<br>+234 803 444 6191</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon">🏢</div>
+            <div>
+              <h4>Branch Offices</h4>
+              <p>
+                <strong>Lagos (Alaba):</strong><br>
+                Block 12, Shop 47 &amp; Block 22 Shop 32<br>
+                Ojo, Alaba Intl. Market<br>
+                +234 809 684 4444<br><br>
+                <strong>Abuja (Kuje):</strong><br>
+                Suit 10 Dan Plaza Kuje<br>
+                Beside Kuje Guest Inn<br>
+                +234 802 237 8724
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card" id="quote">
+          <h3>Request a Free Quote</h3>
+          <p class="assure">✓ We respond within 24 hours</p>
+          <form onsubmit="event.preventDefault(); alert('Thank you! RADILIFE will contact you within 24 hours.');">
+            <div class="form-row">
+              <div class="form-group"><input type="text" placeholder="Full Name" required /></div>
+              <div class="form-group"><input type="tel" placeholder="Phone Number" required /></div>
+            </div>
+            <div class="form-group"><input type="email" placeholder="Email (optional)" /></div>
+            <div class="form-group"><textarea placeholder="Tell us about your project or the products you need..." rows="5"></textarea></div>
+            <button type="submit" class="btn btn-green">Get Free Quote</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="map-wrapper">
+        <iframe src="https://maps.google.com/maps?q=No.+4+Yahaya+Madaki+Way,+Katsina,+Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" title="RADILIFE Head Office"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><img src="images/logo.png" alt="RADILIFE" style="height:36px" /></a>
+          <p>Your partner in reliable solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="index.html">Who We Are</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Products &amp; Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="services.html">Solar</a>
+          <a href="services.html">Street Lighting</a>
+          <a href="services.html">Transformers</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+2348034446191">+234 803 444 6191</a>
+          <a href="mailto:radilife05@gmail.com">radilife05@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 RADILIFE. All Rights Reserved. · www.radilife.com</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
